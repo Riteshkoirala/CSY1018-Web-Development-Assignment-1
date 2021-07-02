@@ -58,7 +58,7 @@ ul li a:hover{
 #check{
 	display:none;
 }
-/**index page css**/
+
 h1{
 	margin:50px 0;
 	text-align: center;
@@ -406,6 +406,7 @@ button:hover{
 	padding-left: 300px;
 }
 /**cv page code end here**/
+
 .topic h1{
 	background-color:lightgreen;
 	margin-top: 0px;
@@ -492,6 +493,7 @@ button:hover{
 	height: 300px;
 	margin-left: 20px;
 }
+
 @media(max-width: 900px){
 	.checkbtn{
 		display:block;
@@ -518,6 +520,7 @@ button:hover{
 	#check:checked ~ul{
 		left:0;
 	}
+
 	h1{
 		color:#3498db;
 	}
@@ -545,10 +548,12 @@ button:hover{
     .end h3{
     	padding-left: 80px;
     }
+
     .contact-box{
     	display:inline-block;
     	width: 100%;
     }
+
     .grid-container{
     	display: block;
     	margin-right: 20px;
@@ -590,6 +595,7 @@ button:hover{
     .ends h3{
     	padding-left: 80px;
     }
+
     .endss{
     	width: 100%;
     	height: auto;
@@ -681,7 +687,7 @@ button:hover{
     	display: inline-block;
     	width: auto;
     }
-}
+
 @media(max-width: 380px){
 	.end{
 		width: auto;
