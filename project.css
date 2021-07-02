@@ -148,7 +148,7 @@ h1{
 	display: flex;
 	margin-bottom: -20px;
 	background-color: pink;
-	height: 400px;
+	height: 680px;
 	margin-top: 30px;
 }
 .num2 img{
@@ -166,9 +166,52 @@ h1{
 	margin-left: 90px;
 	margin-top: -20px;
 }
-.num2 img:hover{
-	background-image:url(back.jpg);
-	opacity: 1;
+.num3 img{
+
+	background-color: purple;
+	border-radius: 20px;
+	height: 300px;
+	width: 200px;
+	margin: 20px;
+	margin-right: 20px;
+	text-align: center;
+	cursor: pointer;
+	margin-top: 340px;
+}
+.num3 h3{
+	margin-left: 90px;
+	margin-top: -20px;
+}
+.num5 img{
+
+	background-color: purple;
+	border-radius: 20px;
+	height: 300px;
+	width: 200px;
+	margin: 20px;
+	margin-right: 20px;
+	text-align: center;
+	cursor: pointer;
+	margin-top: 340px;
+}
+.num5 h3{
+	margin-left: 90px;
+	margin-top: -20px;
+}
+.num4 img{
+
+	background-color: purple;
+	border-radius: 20px;
+	height: 300px;
+	width: 200px;
+	margin: 20px;
+	margin-right: 20px;
+	text-align: center;
+	cursor: pointer;
+}
+.num4 h3{
+	margin-left: 90px;
+	margin-top: -20px;
 }
 .endss{
 	background-color: brown;
@@ -295,12 +338,18 @@ button:hover{
 	font-size:55px;
 	margin-bottom: -20px;
 	margin-top: -10px;
+	animation:change 5s infinite;
+}
+@keyframes change{
+	50%{
+		background-color: red;
+	}
 }
 .table2{
 	height: 1010px;
 	width: 400px;
 	margin-right: -105px;
-	background-color: blue;
+	background-color: indigo;
 }
 .table2 img{
 	margin-right: 90px;
@@ -357,8 +406,23 @@ button:hover{
 	padding-left: 300px;
 }
 /**cv page code end here**/
-.topic{
-	text-shadow:1px 1px 1px 1px;
+/** site report page**/
+.topic h1{
+	background-color:lightgreen;
+	margin-top: 0px;
+	height: 100px;
+	padding-top: 30px;
+	animation: changes 10s infinite;
+}
+@keyframes changes{
+	50%{
+		background-color: skyblue;
+	}
+}
+.para{
+	margin-top: -50px;
+	background-color: white;
+	padding-top:20px; 
 }
 .para p{
 	margin-left: 10px;
@@ -429,6 +493,8 @@ button:hover{
 	height: 300px;
 	margin-left: 20px;
 }
+/**report page end here**/
+/**this code is for the mobile view**/
 @media(max-width: 900px){
 	.checkbtn{
 		display:block;
@@ -455,6 +521,7 @@ button:hover{
 	#check:checked ~ul{
 		left:0;
 	}
+	/**index page**/
 	h1{
 		color:#3498db;
 	}
@@ -482,10 +549,14 @@ button:hover{
     .end h3{
     	padding-left: 80px;
     }
+    /** end**/
+    /**contact page**/
     .contact-box{
     	display:inline-block;
     	width: 100%;
     }
+    /**end here**/
+    /**cv page**/
     .grid-container{
     	display: block;
     	margin-right: 20px;
@@ -527,6 +598,8 @@ button:hover{
     .ends h3{
     	padding-left: 80px;
     }
+    /** end here**/
+    /**protfolio page**/
     .endss{
     	width: 100%;
     	height: auto;
@@ -543,16 +616,34 @@ button:hover{
     }
     .num1{
     	width: auto;
+    	margin-right: 5px;
     }
     .num2 img{
     	margin-left: 60px;
     	margin-top: 20px;
 
     }
+    .num4 img{
+    	margin-left: 60px;
+    	margin-top: 20px;
+
+    }
+    .num5 img{
+    	margin-left: 60px;
+    	margin-top: 20px;
+    }
+
+    .num3 img{
+    	margin-left: 60px;
+    	margin-top: 20px;
+
+    }
+
     .moniter{
     	height: 550px;
     }
-
+/**end here**/
+/**site report page**/
     .correction{
     	display: inline-block;
     	width: auto;
@@ -601,7 +692,9 @@ button:hover{
     	display: inline-block;
     	width: auto;
     }
+    /**end here**/
 }
+/** this is for the mobile with resolution less than 380px**/
 @media(max-width: 380px){
 	.end{
 		width: auto;
