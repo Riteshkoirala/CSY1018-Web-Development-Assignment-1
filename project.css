@@ -148,11 +148,7 @@ h1{
 	display: flex;
 	margin-bottom: -20px;
 	background-color: pink;
-<<<<<<< HEAD
-	height: 400px;
-=======
 	height: 680px;
->>>>>>> protfolio-page
 	margin-top: 30px;
 }
 .num2 img{
@@ -170,11 +166,6 @@ h1{
 	margin-left: 90px;
 	margin-top: -20px;
 }
-<<<<<<< HEAD
-.num2 img:hover{
-	background-image:url(back.jpg);
-	opacity: 1;
-=======
 .num3 img{
 
 	background-color: purple;
@@ -221,7 +212,6 @@ h1{
 .num4 h3{
 	margin-left: 90px;
 	margin-top: -20px;
->>>>>>> protfolio-page
 }
 .endss{
 	background-color: brown;
@@ -348,25 +338,19 @@ button:hover{
 	font-size:55px;
 	margin-bottom: -20px;
 	margin-top: -10px;
-<<<<<<< HEAD
-=======
 	animation:change 5s infinite;
 }
+/**this is for the change in background color**/
 @keyframes change{
 	50%{
 		background-color: red;
 	}
->>>>>>> protfolio-page
 }
 .table2{
 	height: 1010px;
 	width: 400px;
 	margin-right: -105px;
-<<<<<<< HEAD
-	background-color: blue;
-=======
 	background-color: indigo;
->>>>>>> protfolio-page
 }
 .table2 img{
 	margin-right: 90px;
@@ -423,10 +407,7 @@ button:hover{
 	padding-left: 300px;
 }
 /**cv page code end here**/
-<<<<<<< HEAD
-.topic{
-	text-shadow:1px 1px 1px 1px;
-=======
+/** site report page**/
 .topic h1{
 	background-color:lightgreen;
 	margin-top: 0px;
@@ -434,6 +415,7 @@ button:hover{
 	padding-top: 30px;
 	animation: changes 10s infinite;
 }
+/**this is for the change in background color**/
 @keyframes changes{
 	50%{
 		background-color: skyblue;
@@ -443,7 +425,7 @@ button:hover{
 	margin-top: -50px;
 	background-color: white;
 	padding-top:20px; 
->>>>>>> protfolio-page
+	margin-bottom: -40px
 }
 .para p{
 	margin-left: 10px;
@@ -514,6 +496,8 @@ button:hover{
 	height: 300px;
 	margin-left: 20px;
 }
+/**report page end here**/
+/**this code is for the mobile view**/
 @media(max-width: 900px){
 	.checkbtn{
 		display:block;
@@ -540,6 +524,7 @@ button:hover{
 	#check:checked ~ul{
 		left:0;
 	}
+	/**index page**/
 	h1{
 		color:#3498db;
 	}
@@ -567,10 +552,14 @@ button:hover{
     .end h3{
     	padding-left: 80px;
     }
+    /** end**/
+    /**contact page**/
     .contact-box{
     	display:inline-block;
     	width: 100%;
     }
+    /**end here**/
+    /**cv page**/
     .grid-container{
     	display: block;
     	margin-right: 20px;
@@ -612,6 +601,8 @@ button:hover{
     .ends h3{
     	padding-left: 80px;
     }
+    /** end here**/
+    /**protfolio page**/
     .endss{
     	width: 100%;
     	height: auto;
@@ -628,18 +619,13 @@ button:hover{
     }
     .num1{
     	width: auto;
-<<<<<<< HEAD
-=======
     	margin-right: 5px;
->>>>>>> protfolio-page
     }
     .num2 img{
     	margin-left: 60px;
     	margin-top: 20px;
 
     }
-<<<<<<< HEAD
-=======
     .num4 img{
     	margin-left: 60px;
     	margin-top: 20px;
@@ -656,11 +642,11 @@ button:hover{
 
     }
 
->>>>>>> protfolio-page
     .moniter{
     	height: 550px;
     }
-
+/**end here**/
+/**site report page**/
     .correction{
     	display: inline-block;
     	width: auto;
@@ -709,7 +695,9 @@ button:hover{
     	display: inline-block;
     	width: auto;
     }
+    /**end here**/
 }
+/** this is for the mobile with resolution less than 380px**/
 @media(max-width: 380px){
 	.end{
 		width: auto;
