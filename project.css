@@ -43,7 +43,7 @@ ul li a:hover{
 .active, a:hover{
 	background-color:white;
 	color:red;
-	border-radius: 5px;
+	border-radius: 6px;
 }
 /**for making the hamburger bar**/
 .checkbtn{
